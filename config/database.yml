@@ -1,7 +1,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: sample_app_dev
+  database: sass_dev
   pool: 5
   username: venture
   password:
@@ -15,7 +15,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: sample_app_test
+  database: sass_test
   pool: 5
   username: venture
   password:
@@ -25,7 +25,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: demo_app_production
+  database: sass_production
   pool: 5
   username: venture
   password:

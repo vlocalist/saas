@@ -42,20 +42,7 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-
-  gem 'selenium-webdriver', '2.35.1'
-  gem 'capybara', '2.1.0'
-
+#transition to postgresSQL
   gem 'pg'
+#needed for heroku auth  
   gem 'rails_12factor', '0.0.2'
-  gem 'rspec-rails', '2.13.1'
-
-  gem 'guard-rspec', '2.5.0'
-  gem 'growl'
-
-#spork for bg test processing
-
-gem 'spork-rails', '4.0.0'
-gem 'guard-spork', '1.5.0'
-gem 'childprocess', '0.3.6'
-
