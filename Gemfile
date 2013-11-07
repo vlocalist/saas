@@ -46,3 +46,5 @@ end
   gem 'pg'
 #needed for heroku auth  
   gem 'rails_12factor', '0.0.2'
+
+gem 'rspec-rails'
